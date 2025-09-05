@@ -1,4 +1,4 @@
-## Instalação do projeto/ instruções de instalação do projeto.
+## Project Installation/Project installation instructions.
 
 To assemble and install the project, we used simple components that, together, form an efficient logical system:
 
