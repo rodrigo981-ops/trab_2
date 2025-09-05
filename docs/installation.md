@@ -1,18 +1,17 @@
 ## Instalação do projeto/ instruções de instalação do projeto.
 
-Para montar e instalar o projeto, utilizamos componentes simples, mas que juntos formam um sistema lógico eficiente:
+To assemble and install the project, we used simple components that, together, form an efficient logical system:
 
-1 placa Arduino UNO
-8 botões de pressão (push buttons)
-5 LEDs (4 para os bits de resultado e 1 para o carry final)
-Resistores de 220 ohms para os LEDs
-Protoboard para montar o circuito
-Cabos jumper para as conexões
+1 Arduino UNO board
+8 push buttons
+5 LEDs (4 for the result bits and 1 for the final carry)
+220-ohm resistors for the LEDs
+A breadboard to build the circuit
+Jumper wires for the connections
 
+The buttons were connected to the Arduino’s digital pins 0 to 7, with the first 4 representing the first number and the remaining 4 representing the second number.
+The output LEDs were connected to pins 8 to 12, with the first 4 indicating the sum result and pin 12 representing the final carry.
 
-Os botões foram conectados aos pinos digitais de 0 a 7 do Arduino, onde os 4 primeiros representam o primeiro número e os outros 4 representam o segundo número.
-Os LEDs de saída foram conectados nos pinos 8 a 12, onde os 4 primeiros indicam o resultado da soma e o pino 12 representa o carry final.
+The assembly was done neatly, respecting the correct placement of the resistors, avoiding short circuits, and maintaining a clear and logical layout.
 
-A montagem foi feita de forma limpa, respeitando o posicionamento dos resistores, evitando curtos-circuitos e mantendo a lógica visual de funcionamento.
-
-Após a montagem física, o código foi carregado utilizando a IDE do Arduino. Através do cabo USB, realizamos o upload do código e, em segundos, o sistema já estava funcionando e pronto para testes.
+After completing the physical setup, the code was uploaded using the Arduino IDE. Through the USB cable, we uploaded the program, and within seconds, the system was up and running, ready for testing.
