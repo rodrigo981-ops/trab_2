@@ -1,11 +1,11 @@
 ## Visão geral
 
-O sistema é composto por três elementos principais:
+The system is composed of three main elements:
 
-Entradas digitais, representadas por botões físicos, que simulam os bits dos números que serão somados;
-O microcontrolador Arduino UNO, responsável por processar a lógica da soma;
-Saídas digitais, representadas por LEDs, que mostram o resultado da operação binária.
+Digital inputs, represented by physical buttons, which simulate the bits of the numbers to be added;
+The Arduino UNO microcontroller, responsible for processing the addition logic;
+Digital outputs, represented by LEDs, which display the result of the binary operation.
 
-A lógica é simples: o usuário define dois números de 4 bits, pressionando botões físicos que ligam ou desligam os bits binários. O Arduino então lê essas entradas, calcula a soma desses dois números e acende os LEDs correspondentes ao resultado.
+The logic is simple: the user sets two 4-bit numbers by pressing physical buttons that turn the binary bits on or off. The Arduino then reads these inputs, calculates the sum of the two numbers, and lights up the corresponding LEDs to show the result.
 
-Além disso, há um LED específico para indicar o carry-out final, que representa se houve ou não um “vai 1” ao final da operação. Esse recurso é muito importante, pois nos ajuda a entender o conceito de overflow em operações de soma binária.
+Additionally, there is a specific LED to indicate the final carry-out, which shows whether or not there was a “carry over” at the end of the operation. This feature is very important because it helps us understand the concept of overflow in binary addition operations.
