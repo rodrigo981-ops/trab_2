@@ -8,4 +8,4 @@ Bem- Vindo à documentação do nosso projeto. Aqui você encontrará informaç�
 - [Uso](usage.md)
 - [API](api/index.md)
 - [README](README.md)
-  [License](LICENSE)
+- [License](LICENSE)
