@@ -9,3 +9,5 @@ Digital outputs, represented by LEDs, which display the result of the binary ope
 The logic is simple: the user sets two 4-bit numbers by pressing physical buttons that turn the binary bits on or off. The Arduino then reads these inputs, calculates the sum of the two numbers, and lights up the corresponding LEDs to show the result.
 
 Additionally, there is a specific LED to indicate the final carry-out, which shows whether or not there was a “carry over” at the end of the operation. This feature is very important because it helps us understand the concept of overflow in binary addition operations.
+
+![IMAGEM NAO ENCONTRADA](https://github.com/rodrigo981-ops/trab_2/blob/Rodrigo9/docs/images/arduino1.png "Arduino - Overview")
