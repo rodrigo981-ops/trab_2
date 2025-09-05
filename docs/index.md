@@ -5,6 +5,6 @@ Bem- Vindo à documentação do nosso projeto. Aqui você encontrará informaç�
 
 - [Overview](overview.md)
 - [Installation](installation.md)
-- [usage](usage.md)
+- [Usage](usage.md)
 - [README](README.md)
 - [License](LICENSE)
