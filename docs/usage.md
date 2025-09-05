@@ -1,17 +1,15 @@
 # Guia de como usar o software.
 
-O uso do sistema é bem simples e intuitivo.
-Com o Arduino ligado e os botões conectados, o usuário pode pressionar qualquer combinação de bits em dois grupos de quatro botões. Cada grupo representa um número de 4 bits.
+The system is very simple and intuitive to use.
+With the Arduino powered on and the buttons connected, the user can press any combination of bits in two groups of four buttons. Each group represents a 4-bit number.
 
-Ao fazer isso, o Arduino lê automaticamente os estados lógicos (0 ou 1) de cada botão, realiza a soma considerando os bits de mesmo peso e também os valores de carry que são propagados de uma posição para a próxima.
+When the buttons are pressed, the Arduino automatically reads the logical states (0 or 1) of each button, performs the sum by considering bits of the same weight, and also takes into account the carry values propagated from one position to the next.
 
-Os LEDs acendem representando o valor da soma. Por exemplo:
+The LEDs light up to represent the value of the sum. For example:
 
+If we input 0001 (1) and 0011 (3), the LEDs will light up to show 0100 (4).
+If we add 1111 (15) and 0001 (1), the result will be 0000, and the carry LED will light up, because 15 + 1 = 16 — which exceeds the 4-bit limit.
 
-Se colocarmos 0001 (1) e 0011 (3), os LEDs irão acender representando 0100 (4).
-Se somarmos 1111 (15) com 0001 (1), o resultado será 0000, e o LED do carry acenderá, pois 15 + 1 = 16 — o que excede os 4 bits disponíveis.
+This allows us to visually understand what happens when binary overflow occurs, something very common in real-world digital systems.
 
-
-Isso nos permite visualizar na prática o que ocorre quando há estouro de capacidade binária, algo muito comum em sistemas digitais reais.
-
-Além disso, o sistema funciona em tempo real — ou seja, a cada mudança nos botões, os LEDs atualizam imediatamente, sem necessidade de resetar ou reiniciar o código.
+Additionally, the system operates in real-time — meaning that any changes to the buttons are immediately reflected in the LEDs, without the need to reset or restart the code.
