@@ -7,6 +7,5 @@ Bem- Vindo à documentação do nosso projeto. Aqui você encontrará informaç�
 - [Instalação](installation.md)
 - [Uso](usage.md)
 - [API](api/index.md)
-- [Exemplos](exemplos/)
 - [README](README.md)
   [License](LICENSE)
