@@ -1,4 +1,4 @@
-# Guia de como usar o software.
+# Guide on how to use
 
 The system is very simple and intuitive to use.
 With the Arduino powered on and the buttons connected, the user can press any combination of bits in two groups of four buttons. Each group represents a 4-bit number.
