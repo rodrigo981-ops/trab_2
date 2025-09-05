@@ -1,4 +1,4 @@
-## Visão geral
+## Project Overview
 
 The system is composed of three main elements:
 
