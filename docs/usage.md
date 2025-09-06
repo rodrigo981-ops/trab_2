@@ -13,4 +13,4 @@ If we add 1111 (15) and 0001 (1), the result will be 0000, and the carry LED wil
 This allows us to visually understand what happens when binary overflow occurs, something very common in real-world digital systems.
 
 Additionally, the system operates in real-time — meaning that any changes to the buttons are immediately reflected in the LEDs, without the need to reset or restart the code.
-![Imagem não encontrada](https://github.com/rodrigo981-ops/trab_2/blob/Rodrigo9/docs/images/ChatGPT%20Image%205%20de%20set.%20de%202025%2C%2021_20_26.png)
+![Imagem não encontrada](https://github.com/rodrigo981-ops/trab_2/blob/Rodrigo9/docs/images/ChatGPT%20Image%205%20de%20set.%20de%202025%2C%2021_20_26.png "Arduino - Usage")
