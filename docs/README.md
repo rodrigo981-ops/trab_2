@@ -28,3 +28,4 @@ The LEDs then display the sum value in real time, updating as the user changes t
 ---
 
 This system is ideal for those who want to understand and visualize the basic logic of binary adders in digital systems, using simple hardware and Arduino programming.
+![Imagen não encontrada](https://github.com/rodrigo981-ops/trab_2/blob/Rodrigo9/docs/images/contador-binario.png "Arduino - Readme")
