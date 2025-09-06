@@ -15,5 +15,3 @@ The output LEDs were connected to pins 8 to 12, with the first 4 indicating the 
 The assembly was done neatly, respecting the correct placement of the resistors, avoiding short circuits, and maintaining a clear and logical layout.
 
 After completing the physical setup, the code was uploaded using the Arduino IDE. Through the USB cable, we uploaded the program, and within seconds, the system was up and running, ready for testing.
-
-![IMAGEM NAO ENCONTRADA](:https://chatgpt.com/fba68378-438a-4a79-bcd3-522de56048fe ("Arduido" - Installation))
